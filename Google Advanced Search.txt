@@ -5,14 +5,14 @@ Google Advanced Search:
 
  2. << OR >>
 	Example: 'blue OR red'
-	=>  Result:   - results containing 'blue'
-				  - results containing 'red'
-	  			  - results containing 'blue AND red'
+	=>  Result: - results containing 'blue'
+		    - results containing 'red'
+	  	    - results containing 'blue AND red'
 
 
  3. NOT << - >> 
 	Example: 'Donald -Trump'
-	=>  Result:   - results containing 'Donald' but no 'Trump'
+	=>  Result: - results containing 'Donald' but no 'Trump'
 
 
  4. Exact Match << " " >> 
@@ -54,4 +54,4 @@ Google Advanced Search:
 
 
 12. Advanced search interface
-		www.google.com/advanced_search
+	www.google.com/advanced_search
