@@ -1,0 +1,57 @@
+Google Advanced Search:
+
+ 1. Between the words used in the "search query", google uses AND automatically
+
+
+ 2. << OR >>
+	Example: 'blue OR red'
+	=>  Result:   - results containing 'blue'
+				  - results containing 'red'
+	  			  - results containing 'blue AND red'
+
+
+ 3. NOT << - >> 
+	Example: 'Donald -Trump'
+	=>  Result:   - results containing 'Donald' but no 'Trump'
+
+
+ 4. Exact Match << " " >> 
+	Example: ' "white black lake" '
+	=> Result:  - results containing the exact structure/order of words (preserves the order)
+			    - will not return combinations like 'black lake' etc.
+
+
+ 5. Placeholder << * >>
+	Tip: - use with " "(exact match) for desired results
+
+	Example: ' "the * sky" '
+	=> Result: - results containing "the <something> sky"
+	Tip: - without " " the result will be interpreted like this: 'the AND <something> AND sky' 
+
+
+ 6. fyletype:pdf "file name"
+
+
+ 7. realted:youtube.com
+ 		=> Result: - sites similar to youtube.com
+
+
+ 8. Internal calculator
+	- any form of mathematical operation will call the internal calculator
+	- can plot single-variable function notation (like matlab)
+
+	Example: ' f(x) = x / 10 ,  f(x) = log(x) - 1  '
+	=> Result: - a graph with both functions
+
+
+ 9. inurl / allinurl  
+	Tip: - for more words included in url, use 'allinurl:word1 word2'
+	Example: ' inurl:songoku | inurl:naruto ' 
+	Example: ' allinurl:songoku naruto'
+
+10. intitle/allintitle    -  same as inurl, but searches for/in titles
+11. intext/allintext	  -  same as inurl, but searches for/in urls or documents text
+
+
+12. Advanced search interface
+		www.google.com/advanced_search
