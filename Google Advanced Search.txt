@@ -30,10 +30,10 @@ Google Advanced Search:
 
 
  6. fyletype:pdf "file name"
-
+ 
 
  7. realted:youtube.com
- 		=> Result: - sites similar to youtube.com
+ 	=> Result: - sites similar to youtube.com
 
 
  8. Internal calculator
